@@ -1,32 +1,24 @@
 html {
 	box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-	color: #262626;
+	color: #fff;
+	background-color: #000;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
 }
 
-.logo {
-	position: absolute;
-	width: 30%;
-	left: 50%;
-	top: 40px;
-	transform: translateX(-50%);
-}
 
 main {
 	display: block;
 }
 
-.hl {
-	color: #FF5950;
+.head {
+	width: 40em;
+	align-items: center;
 }
 
-h1 {
-	margin: 0;
-}
 
 .center {
 	max-width: 40em;
@@ -36,7 +28,6 @@ h1 {
 .image-w-caption {
 	text-decoration: none;
 	padding: 1em;
-
 }
 
 main p {
@@ -45,7 +36,7 @@ main p {
 
 li a {
 	text-decoration: none;
-	color: #262626;
+	color: #fff;
 }
 
 footer a {
@@ -56,11 +47,6 @@ footer a {
 .nav li {
 	display: inline-block;
 	margin: 0 auto;
-}
-
-.border-right {
-	border-right: 3px solid #262626;
-	padding-right: 1em;
 }
 
 .right {
@@ -78,19 +64,11 @@ footer {
 
 .img-caption {
 	text-decoration: none;
-	color: #262626;
+	color: #fff;
 }
 
 footer {
 	bottom: 0px;
-}
-
-header {
-	background-image: url("../images/mid.svg"), url("../images/left.svg"), url("../images/right.svg");
-  background-position: center top, left top, right top;
-	background-size: auto 100%, auto 80%, auto 80%;
-  background-repeat: no-repeat;
-	padding-top: 30%;
 }
 
 body {
