@@ -19,6 +19,15 @@ main {
 	align-items: center;
 }
 
+header {
+	background-image: url("images/background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+	margin-bottom: 0;
+}
 
 .center {
 	max-width: 40em;
@@ -47,6 +56,7 @@ footer a {
 .nav li {
 	display: inline-block;
 	margin: 0 auto;
+	text-decoration: none;
 }
 
 .right {
@@ -55,6 +65,7 @@ footer a {
 
 footer {
 	margin: 0 auto;
+	bottom: 0px;
 }
 
 .margins {
@@ -67,10 +78,10 @@ footer {
 	color: #fff;
 }
 
-footer {
-	bottom: 0px;
-}
-
 body {
 	margin: 0;
+}
+
+ul > li::before {
+	content: none;
 }
