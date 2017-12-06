@@ -86,3 +86,7 @@ body {
 ul > li::before {
 	content: none;
 }
+
+ul {
+	margin: 0;
+}
