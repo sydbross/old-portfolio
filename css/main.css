@@ -9,7 +9,6 @@ html {
 	box-sizing: inherit;
 }
 
-
 main {
 	display: block;
 }
@@ -89,4 +88,8 @@ ul > li::before {
 
 ul {
 	margin: 0;
+}
+
+.help {
+	padding: 0;
 }
