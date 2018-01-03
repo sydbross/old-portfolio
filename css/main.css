@@ -93,3 +93,10 @@ ul {
 .help {
 	padding: 0;
 }
+
+.error {
+	background-image: linear-gradient(to bottom, transparent 65%, black), url("../images/extra/bg2.jpg");
+	background-size: contain, 100% auto;
+	background-repeat: no-repeat;
+	background-position: center bottom, center;
+}
