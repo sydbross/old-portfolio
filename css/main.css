@@ -78,6 +78,10 @@ footer {
 	color: #fff;
 }
 
+.img-caption:hover {
+	color: #f605e0;
+}
+
 body {
 	margin: 0;
 }
@@ -99,4 +103,14 @@ ul {
 	background-size: contain, 100% auto;
 	background-repeat: no-repeat;
 	background-position: center bottom, center;
+}
+
+.error2 {
+	padding-left: 2em;
+	padding-right: 2em;
+	max-width: 50em
+}
+
+h2 {
+	margin: 0;
 }
